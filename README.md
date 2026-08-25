@@ -5,7 +5,7 @@ LangChain `BaseLoader` that turns Gluedly scrape snapshots into `Document` objec
 ## Install
 
 ```bash
-pip install -e ".[dev]"
+pip install langchain-gluedly
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ export GLUEDLY_PAGE_ID=12
 python examples/load_documents.py
 ```
 
-## Tests
+## Development
 
 ```bash
 pip install -e ".[dev]"
