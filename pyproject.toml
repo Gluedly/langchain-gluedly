@@ -9,6 +9,7 @@ description = "LangChain document loader for Gluedly scrape snapshots"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
+license-files = ["LICENSE"]
 dependencies = [
   "langchain-core>=0.3.0",
   "requests>=2.31.0",
